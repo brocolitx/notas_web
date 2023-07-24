@@ -1,0 +1,16 @@
+/* ListaNotas.css */
+.lista-notas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+  }
+  
+  /* Estilos para teléfonos móviles */
+  @media (max-width: 600px) {
+    .lista-notas {
+      justify-content: center;
+      column-count: 1; /* Cambiar a una columna en teléfonos móviles */
+    }
+  }
+  

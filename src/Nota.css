@@ -1,0 +1,25 @@
+.nota {
+    background-color: #000223;
+    border: 3px #000142;
+    border-radius: 2px;
+    position: relative;
+    top: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height:310px;
+    width: calc(25% - 32px); /* Ajustar el ancho para que haya 4 notas por fila */
+    margin-bottom: 20px;
+    overflow-y: auto;
+    margin-right: 20px; /* Espacio entre las notas */
+    padding:1em;  
+    overflow-y: auto;
+    margin:16px; 
+    float:left;
+    
+}
+
+
+.nota.importante {
+    color: #fff; 
+    background-color: #dd1e1e; 
+}

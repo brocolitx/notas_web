@@ -1,0 +1,19 @@
+body {
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:48px;
+  background-color: #2e0331;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: auto; /* Cambio de altura fija a altura automática */
+  background-image: linear-gradient(135deg, #01041f 0%, #6a0040 100%);
+  
+}
+
+.container {
+  color: blanchedalmond;
+  border-radius: 8px;
+  min-height: auto; /* Cambio de altura fija a altura automática */
+  padding: 20px;
+}
